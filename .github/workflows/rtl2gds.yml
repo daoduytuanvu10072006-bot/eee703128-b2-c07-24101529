@@ -1,0 +1,4 @@
+env:
+  MA_DE: C07
+  DESIGN_NAME: c07_dual_channel
+  CONFIG: config.json

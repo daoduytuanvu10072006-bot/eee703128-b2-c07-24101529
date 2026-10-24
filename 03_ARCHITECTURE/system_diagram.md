@@ -29,13 +29,14 @@
                   │ Hiển thị/log  │      │ Chẩn đoán:     │      │ LOGIC AN TOÀN:   │
                   │ "đang lệch"   │      │ lệch bao lâu   │      │ chuyển sang chế  │
                   │ (disagree)    │      │ rồi (counter)  │      │ độ an toàn (error_state) │
+                  └───────────────┘      └────────────────┘      └──────────────────┘
+
 
 ```
 
 ---
 
 ### KHỐI 2: Mục 2 và 3 (Lý thuyết dự phòng và Ranh giới khối)
-```markdown
 ## 2. Vì sao hệ an toàn cần hai kênh, và vì sao hai kênh là chưa đủ
 
 | Số kênh | Phát hiện được gì | Sửa chữa được gì | Chi phí |
@@ -59,6 +60,7 @@
 | **Khoá trạng thái lỗi** | ✅ **ĐÃ CÓ** | FSM `error_state` (chỉ thoát bằng reset) |
 | Giữ `TOL` ổn định | ❌ | Tầng ngoài (hoặc parameter trong RTL). |
 | Quyết định dừng máy / chuyển chế độ an toàn | ❌ | Tầng ngoài — C07 chỉ báo, không hành động |
+| Xác định **kênh nào** hỏng | ❌ | **Bất khả với 2 kênh** — cần 3 kênh 
 
 ## 4. Phân loại khối
 

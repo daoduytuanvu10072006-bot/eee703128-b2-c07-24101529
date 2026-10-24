@@ -39,6 +39,7 @@ Thiết kế của sinh viên đã hiện thực **đầy đủ 3 phần** của
                       └────────────┬───────────┘
                                    │ error_state
                                    └───────────────────────────────────▶ uo_out[1]
+```
 
 
 ## 2. Ánh xạ cấu trúc RTL → Phần cứng sinh ra

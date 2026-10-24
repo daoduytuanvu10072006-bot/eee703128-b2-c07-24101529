@@ -1,0 +1,13 @@
+{
+  "project_id": "C07",
+  "title": "Bộ so sánh hai kênh dự phòng và báo bất đồng",
+  "top_module": "tt_um_c07_dual_channel",
+  "technology": "sky130A",
+  "measured": {
+    "sim": "PASS",
+    "synth": "PASS",
+    "sta": "PASS",
+    "cells": 199,
+    "flip_flops": 7
+  }
+}

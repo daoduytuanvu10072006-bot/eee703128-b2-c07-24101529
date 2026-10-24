@@ -1,8 +1,11 @@
 {
   "DESIGN_NAME": "tt_um_c07_dual_channel",
-  "VERILOG_FILES": ["dir::rtl/project.sv"],
+  "VERILOG_FILES": ["dir::../../rtl/project.sv"],
   "CLOCK_PORT": "clk",
-  "CLOCK_PERIOD": 10,
+  "CLOCK_PERIOD": 10.0,
   "PDK": "sky130A",
-  "STD_CELL_LIBRARY": "sky130_fd_sc_hd"
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY_PCT": 45,
+  "RUN_CTS": true
 }

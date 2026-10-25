@@ -1,0 +1,8 @@
+=== OpenSTA Summary ===
+Corner: nom_tt_025C_1v80
+Setup Slack (WS): +2.760 ns (MET)
+Hold Slack (WS): +0.343 ns (MET)
+
+Corner: nom_ss_100C_1v60
+Setup Slack (WS): -0.0789 ns (VIOLATED)
+Hold Slack (WS): +0.928 ns (MET)

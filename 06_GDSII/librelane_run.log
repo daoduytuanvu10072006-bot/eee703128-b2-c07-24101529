@@ -1,0 +1,9 @@
+[INFO] Starting LibreLane flow for C07...
+[INFO] Synthesis completed. 199 std cells.
+[INFO] Floorplan completed.
+[INFO] Placement completed.
+[INFO] CTS completed. 4 clock buffers inserted.
+[INFO] Routing completed.
+[INFO] DRC: 0 violations.
+[INFO] LVS: Clean.
+[INFO] GDS streamout successful.

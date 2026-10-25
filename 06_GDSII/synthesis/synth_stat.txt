@@ -1,0 +1,4 @@
+=== Synthesis Statistics ===
+Number of cells: 370 (199 standard cells, rest fill/tap)
+Number of sequential cells (Flip-Flops): 7
+Area: 2254.66 um^2

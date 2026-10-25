@@ -1,0 +1,7 @@
+Metric,Value
+design__instance__count,370
+design__instance__count__stdcell,199
+design__instance__count__class:sequential_cell,7
+design__instance__area,2254.66
+timing__setup__ws,-0.0789
+power__total,0.000353

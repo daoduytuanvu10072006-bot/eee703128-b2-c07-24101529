@@ -1,0 +1,3 @@
+=== LVS Report ===
+Result: Clean.
+No mismatches found between layout and synthesized netlist.

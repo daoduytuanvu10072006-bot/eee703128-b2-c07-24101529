@@ -1,0 +1,5 @@
+=== Power Report ===
+Internal Power:  0.216 mW
+Switching Power: 0.137 mW
+Leakage Power:   2.46 nW
+Total Power:     0.353 mW

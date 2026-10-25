@@ -1,0 +1,10 @@
+Req_ID,Requirement,Design_Component,Verification_Evidence,Status
+REQ-C07-001,"Thực hiện đúng chức năng so sánh hai kênh","Module tt_um_c07_dual_channel","simulation.log (9 ca PASS)","PASS"
+REQ-C07-002,"Giao diện đúng ánh xạ chân Tiny Tapeout","ui_in, uio_in, uo_out","interface.md, synthesis report","PASS"
+REQ-C07-003,"Loại mạch Tuần tự (có FSM)","Bộ đếm (6 FF) + FSM (1 FF)","metrics.json (7 FF), fsm.md","PASS"
+REQ-C07-010,"Chạy đủ các ca kiểm thử bắt buộc","Testbench CA1, CA2, CA4, CA5, CA7","simulation.log","PASS"
+REQ-C07-011,"Bổ sung ít nhất 2 ca tự xây dựng (có ca biên)","Testbench CA8, CA9","simulation.log","PASS"
+REQ-C07-012,"Mỗi khẳng định phải đi kèm bằng chứng","Toàn bộ báo cáo và thư mục 06_GDSII","Báo cáo PDF (Mục 4, 5, 6)","PASS"
+REQ-C07-020,"Trả lời câu phân tích riêng (cơ chế khóa)","FSM error_state (vòng hồi tiếp)","Báo cáo PDF (Mục 8), fsm.md","PASS"
+REQ-C07-030,"Khóa trạng thái lỗi, chỉ thoát bằng reset","Điều kiện else if (!error_state)","simulation.log (CA6), rtl/project.sv","PASS"
+REQ-C07-040,"Bộ đếm reset về 0 khi hết bất đồng","Logic counter <= 0","simulation.log (CA4)","PASS"

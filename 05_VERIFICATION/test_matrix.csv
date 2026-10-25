@@ -1,0 +1,15 @@
+tc_id,nguon,mo_ta,ket_qua,bang_chung
+TC-001,Charter muc 8,"Hai kênh khớp",PASS,simulation.log
+TC-002,Charter muc 8,"Lệch trong dung sai (TOL)",PASS,simulation.log
+TC-003,Charter muc 8,"Lệch đúng ngưỡng TOL (Biên)",PASS,simulation.log
+TC-004,Charter muc 8,"Lệch vượt dung sai ngắn (chưa lỗi)",PASS,simulation.log
+TC-005,Charter muc 8,"Lệch kéo dài (vào trạng thái lỗi)",PASS,simulation.log
+TC-006,Charter muc 8,"Khớp lại nhưng vẫn giữ lỗi (Tính khóa)",PASS,simulation.log
+TC-007,Charter muc 8,"Reset để thoát lỗi",PASS,simulation.log
+TC-008,Tu xay,"A < B nhưng lệch lớn (Kiểm tra đối xứng)",PASS,simulation.log
+TC-009,Tu xay,"Giá trị cực đại 255 vs 0 (Kiểm tra tràn số)",PASS,simulation.log
+L2-SIM,Tu xay,"Mo phong RTL voi testbench tu kiem",PASS,simulation.log
+L3-FF,Charter muc 10,"So cell tuan tu phai phu hop (7-9 FF)",PASS,metrics.json
+L3-SYN,Tu xay,"RTL tong hop duoc ra standard cell sky130",PASS,metrics.json
+L4-GATE,Tu xay,"Mo phong gate-level tren netlist",CHUA CHAY,-
+L5-SDF,Tu xay,"Mo phong post-layout co back-annotate SDF",CHUA CHAY,-

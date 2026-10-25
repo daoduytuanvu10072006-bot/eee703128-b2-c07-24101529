@@ -1,0 +1,13 @@
+VCD info: dumpfile wave.vcd opened for output.
+PASS: CA1 khop | dis=0 err=0
+PASS: CA2 lech trong dung sai | dis=0 err=0
+PASS: CA3 lech dung TOL | dis=0 err=0
+PASS: CA4 khop lai sau lech ngan | dis=0 err=0
+PASS: CA5 lech dai vao loi | dis=1 err=1
+PASS: CA6 khop lai nhung van loi | dis=0 err=1
+PASS: CA7 reset thoat | dis=0 err=0
+PASS: CA8 A nho hon B nhung lech lon | dis=1 err=0
+PASS: CA9 255 vs 0 | dis=1 err=0
+=== KET QUA: 9 PASS, 0 loi ===
+=== KET THUC MO PHONG ===
+tb/tb.sv:122: $finish called at 306000 (1ps)

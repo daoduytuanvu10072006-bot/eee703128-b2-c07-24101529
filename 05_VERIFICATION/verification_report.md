@@ -92,3 +92,26 @@ PASS: CA9 255 vs 0 | dis=1 err=0
 === KET QUA: 9 PASS, 0 loi ===
 === KET THUC MO PHONG ===
 tb/tb.sv:122: $finish called at 306000 (1ps)
+## 4. Kiểm cấu trúc — số flip-flop
+
+Trích `metrics.json` (LibreLane + Yosys + sky130_fd_sc_hd):
+
+| Chỉ số | Giá trị |
+|---|---:|
+| Tổng số cell (bao gồm fill) | **370** |
+| Số standard cell (logic) | **199** |
+| Cell tuần tự (Sequential) | **7** |
+| Diện tích std cell | 1739.17 µm² |
+
+✅ Đúng phân loại **Tuần tự** của Charter và khớp hoàn hảo với kiến trúc FSM + bộ đếm.
+## 5. Những gì báo cáo này **chưa** chứng minh
+
+| Chưa chứng minh | Vì sao |
+|---|---|
+| Kiến trúc bên trong đúng như mô tả | Kiểm chứng chức năng mù về cấu trúc |
+| Độ trễ lan truyền đạt yêu cầu | Mô phỏng hành vi là zero-delay (Cần xem STA) |
+| Mạch đúng sau place & route | Chưa chạy mô phỏng L4/L5 |
+
+---
+
+*Truy vết: REQ-C07-010…013.*
